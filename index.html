@@ -457,5 +457,80 @@
         </div>
       </div>
     </footer>
+
+    <div class="backdrop is-open">
+      <div class="modal">
+        <button type="button" class="modal-close-btn">
+          <svg class="icon icon-close" width="8" hight="8">
+            <use href="./images/icons.svg#close"/></svg>
+        </button>
+        <p class="form-text">Leave your contacts and we will call you back</p>
+      
+      <form> 
+
+        <div class="modal-field">
+        <label for="name">Name</label>
+
+        <div class="modal-field-wrap">
+        <input 
+        type="text"
+        class="modal-input"
+        name="user-name"
+        required
+        minlength="2"
+        id="name"/>
+        
+        <svg class="modal-icon" width="12" height="12">
+          <use href="./images/icons.svg#person"></use>
+        </svg>
+        </div>
+
+        </div>
+
+        <div class="modal-field">
+        <label for="phone">Phone</label>
+
+        <input 
+        type="tel"
+        class="modal-input"
+        name="user-phone"
+        required
+        id="phone"
+        />
+        </div> 
+        
+        <div class="modal-field">
+        <label for="email">Email</label>
+
+        <input 
+        type="email"
+        class="modal-input"
+        name="user-email"
+        required
+        maxlength="10"
+        id="email"
+        />
+        </div>
+
+        <div class="modal-field">
+        <label for="comment">Comment</label>
+        <input
+        type="comment"
+        type="text"
+        class="modal-input"
+        name="user-comment"
+        placeholder="Text input"
+        id="comment"
+        />
+        </div>
+
+
+        <button type="submit">Send</button>
+
+      </form>
+
+      </div>
+
+      
   </body>
 </html>
