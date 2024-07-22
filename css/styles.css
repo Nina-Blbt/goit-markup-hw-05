@@ -543,13 +543,8 @@ img {
   cursor: pointer;
 }
 
-.modal-close-btn:hover {
-  border: none;
-  border-radius: 100%;
-  fill: #ffffff;
-}
-
-.modal-close-btn:focus {
+.modal-close-btn:hover .modal-close-btn:focus {
+  background-color: #404bbf;
   border: none;
   fill: #ffffff;
 }
@@ -635,10 +630,6 @@ img {
 
 .modal-textarea:focus {
   border-color: #4d5ae5;
-}
-
-.modal-field-wrap {
-  position: relative;
 }
 
 .modal-icon {
