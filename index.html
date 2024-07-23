@@ -455,30 +455,27 @@
             </li>
           </ul>
         </div>
+
+        <div class="subscribe-footer">
+          <p class="subscribe-text">Subscribe</p>
+          <form class="subscribe-form">
+            <label class="subscribe-label">
+              <input
+                class="subscribe-input"
+                type="email"
+                name="user-email"
+                placeholder="E-mail"
+              />
+            </label>
+            <button class="subscribe-button" type="submit">
+              Subscribe
+              <svg class="subscribe-footer-btn" width="24" height="24">
+                <use href="./images/icons.svg#icon-subscribe"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
-
-      <div class="subscribe-footer">
-        <p class="subscribe-text">Subscribe</p>
-        <form class="subscribe-form">
-          <label class="subscribe-label">
-            <input
-              class="subscribe-input"
-              type="email"
-              name="user-email"
-              placeholder="E-mail"/>
-          </label>
-          <button class="subscribe-button" type="submit">
-            Subscribe
-            <svg class="subscribe-footer-btn" width="24" height="24">
-              <use href="./images/icons.svg#icon-subscribe"></use>
-            </svg>
-          </button>
-        </form>
-      </div>
-    </div>
-
-
-
     </footer>
 
     <div class="backdrop is-open">
@@ -554,7 +551,7 @@
             ></textarea>
           </div>
 
-          <div class="privacy visually-hidden">
+          <div class="privacy">
             <input
               type="checkbox"
               name="user-privacy"
@@ -563,14 +560,13 @@
               class="modal-privacy visually-hidden"
             />
             <label for="user-privacy" class="modal-terms-check">
-              <span class="span-check"
-                ><svg class="check" width="10" height="8">
+              <span class="span-check">
+                <svg class="check" width="10" height="8">
                   <use href="./images/icons.svg#check"></use>
                 </svg>
               </span>
               I accept the terms and conditions of the
-
-              <a class="form-link" href="#">Privacy Policy</a>
+              <a href="" class="form-link">Privacy Policy</a>
             </label>
           </div>
 
