@@ -605,6 +605,8 @@ img {
 .modal-close-btn:hover .icon-close,
 .modal-close-btn:focus .icon-close {
   fill: #fff;
+  border: none;
+  background-color: #404bbf;
 }
 
 .form-text {
