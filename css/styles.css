@@ -732,7 +732,7 @@ img {
   fill: transparent;
 }
 
-.modal-privacy:checked + .modal-terms-check > .span {
+.modal-privacy:checked + .modal-terms-check > span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
