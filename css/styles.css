@@ -630,7 +630,7 @@ img {
 }
 
 .modal-field {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 
 .modal-field-wrap {
@@ -728,10 +728,14 @@ img {
   fill: transparent;
 }
 
-.mmodal-privacy:checked + .modal-terms-check > .span {
+.modal-privacy:checked + .modal-terms-check > .span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
+}
+
+.privacy {
+  margin-bottom: 24px;
 }
 
 .form-link {
