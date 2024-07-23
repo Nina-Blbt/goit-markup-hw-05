@@ -543,7 +543,8 @@ img {
   cursor: pointer;
 }
 
-.modal-close-btn:hover .modal-close-btn:focus {
+.modal-close-btn:hover,
+.modal-close-btn:focus {
   background-color: #404bbf;
   border: none;
   fill: #ffffff;
@@ -574,7 +575,11 @@ img {
 }
 
 .modal-field {
-  margin-bottom: 16px;
+  margin-bottom: 8px;
+}
+
+.modal-field-wrap {
+  position: relative;
 }
 
 .label {
@@ -633,17 +638,21 @@ img {
 }
 
 .modal-icon {
+  top: 50%;
   fill: transparent;
   stroke: #2e2f42;
   position: absolute;
   left: 19px;
-  top: 50%;
   transform: translateY(-50%);
   left: 16px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.user-privacy {
+.modal-field-wrap {
+  margin-bottom: 24px;
+}
+
+.modal-terms-check {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -663,6 +672,17 @@ img {
   justify-content: center;
   fill: transparent;
 }
+
+.mmodal-privacy:checked + .modal-terms-check > .span {
+  background-color: #404bbf;
+  border: none;
+  fill: #f4f4fd;
+}
+
+.form-link {
+  color: #4d5ae5;
+}
+
 .privacy-send-btn {
   display: block;
   min-width: 169px;
