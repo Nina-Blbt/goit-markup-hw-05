@@ -626,7 +626,6 @@ img {
   text-align: center;
   color: #2e2f42;
   margin-bottom: 16px;
-  margin-top: 24px;
 }
 
 .modal-field {
@@ -707,10 +706,6 @@ img {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-field-wrap {
-  margin-bottom: 24px;
-}
-
 .modal-terms-check {
   font-size: 12px;
   line-height: 1.17;
@@ -758,4 +753,9 @@ img {
   background-color: #4d5ae5;
   border: none;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.submit-button-wrapper {
+  display: flex;
+  justify-content: center;
 }
