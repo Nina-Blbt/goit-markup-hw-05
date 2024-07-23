@@ -612,6 +612,9 @@ img {
 .modal-close-btn:focus {
   border: none;
   background-color: #404bbf;
+  & :first-child {
+    fill: #ffffff;
+  }
 }
 
 .form-text {
