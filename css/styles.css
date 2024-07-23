@@ -747,6 +747,8 @@ img {
 }
 
 .privacy-send-btn {
+  position: absolute;
+  left: 119px;
   display: block;
   min-width: 169px;
   height: 56px;
