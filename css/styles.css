@@ -617,6 +617,11 @@ img {
   }
 }
 
+.modal-close-btn:hover .icon-close,
+.modal-close-btn:focus .icon-close {
+  fill: #ffffff;
+}
+
 .form-text {
   max-width: 360px;
   font-weight: 500;
