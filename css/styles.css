@@ -528,8 +528,13 @@ img {
   border-radius: 4px;
 }
 
+.subscribe-footer {
+  margin-left: auto;
+}
+
 .subscribe-footer-btn {
   margin-left: 16px;
+  fill: #fff;
 }
 
 /* backdrop */
@@ -702,8 +707,7 @@ img {
 
 .modal-icon {
   top: 50%;
-  fill: transparent;
-  stroke: #2e2f42;
+  fill: #2e2f42;
   position: absolute;
   left: 19px;
   transform: translateY(-50%);
@@ -719,6 +723,7 @@ img {
 }
 
 .span-check {
+  margin-right: 8px;
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -747,7 +752,8 @@ img {
 }
 
 .privacy-send-btn {
-  position: absolute;
+  border-radius: 4px;
+  margin: 0 auto;
   left: 119px;
   display: block;
   min-width: 169px;
